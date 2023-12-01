@@ -1,25 +1,16 @@
-import SmallCard from '../components/SmallCard';
-import { projectIcons } from '../components/Icons';
+import React from 'react';
+import Card from '../components/Card';
 
-import { projects } from '../utils/projectsData';
-
-const Home = () => (
-  <div className="home">
-    <h1>What Can I Deploy to Static Apps?</h1>
-    <div className="card-grid">
-      {projects.map((project) => {
-        const Icon = projectIcons[project.id];
-        return (
-          <SmallCard
-            key={project.id}
-            Icon={Icon}
-            title={project.name}
-            slug={project.slug}
-          />
-        );
-      })}
+const Home = () => {
+  return (
+    <div className="container">
+      <h1>Welcome to My Website</h1>
+      <Card
+        title="Card Title"
+        description="This is a sample card with some information."
+      />
     </div>
-  </div>
-);
+  );
+};
 
 export default Home;
