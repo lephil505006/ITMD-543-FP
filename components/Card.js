@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Card = ({ title, description, imageUrl }) => {
+const Card = ({ title, caption, imageUrl }) => {
   const [showMore, setShowMore] = useState(false);
 
   const toggleShowMore = () => {
@@ -11,15 +11,14 @@ const Card = ({ title, description, imageUrl }) => {
     <div className="card">
       <h2>{title}</h2>
       {imageUrl && <img src={imageUrl} alt={title} className="card-image" />}
-      <p>{description}</p>
+      <p>{caption}</p>
       <button onClick={toggleShowMore}>
         {showMore ? 'View Less' : 'View More'}
       </button>
       {showMore && (
-        <p>
-          Additional information or content you want to display when "View More"
-          is clicked.
-        </p>
+        <div className="more-info">
+          <p>Additional information for {title}</p>
+        </div>
       )}
     </div>
   );
