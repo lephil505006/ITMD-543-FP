@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fbfbfb;
+  background-color: #FFF8E7;
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -17,12 +17,23 @@ h1 {
   margin-top: 100px;
 }
 
+h2 {
+  color: blue;
+}
+
+img {
+  width:100%;
+  height: auto;
+}
+
 .card {
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 20px;
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  background-color:#B0C4DE;
 }
 
 .card h2 {
@@ -31,4 +42,8 @@ h1 {
 
 .card p {
   color: #333;
+}
+
+button {
+  background-color: #DAA520;
 }
