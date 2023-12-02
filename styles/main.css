@@ -4,6 +4,7 @@
 
 * {
   box-sizing: border-box;
+  color: #FFF8E7;
 }
 
 body {
@@ -26,15 +27,17 @@ body {
 
 .additional-grid-item {
   padding: 20px;
-  color: #000000;
+  color: #25272b;
 }
 
 .additional-grid-item .title {
   text-align: center;
+  color: #25272b;
 }
 
 .additional-grid-item p {
   margin-left: 25%;
+  color: #000000;
 }
 
 .education-text {
@@ -62,7 +65,10 @@ h1 {
   text-decoration: underline;
 }
 
-h2 {}
+h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
 
 img {
   width: 100%;
@@ -87,10 +93,18 @@ img {
 }
 
 .card p {
-  color: #333;
+  
 }
 
 button {
   background-color: rgb(23, 8, 236);
   padding: 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.moreInfo h2 {
+  font-size: 26px;
+  text-decoration: underline;
+  margin-top: 10px;
 }
