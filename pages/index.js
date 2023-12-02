@@ -18,7 +18,7 @@ const Home = () => {
         'Illinois Institute of Technology - Information Technology Management',
       caption: "Bachelor's Degree",
       imageUrl:
-        'https://www.cod.edu/news/images/campus/src-exterior-article.jpg',
+        'https://news.wttw.com/sites/default/files/styles/full/public/article/image-non-gallery/IIT%20Gift_1025.jpg?itok=5wnNOMFb',
       course1: 'Data Modeling and Applications',
       course2: 'Project Management for ITM',
       course3: 'Intermediate Software Development',
@@ -52,15 +52,35 @@ const Home = () => {
       <div className="additional-grid">
         <div className="additional-grid-item">
           <h3 className="title">Experience</h3>
-          <p>Chicken Place</p>
+          <p>
+            <b>Back of House Team Member</b>
+          </p>
+          <p>Chick-Fil-A Inc.</p>
+          <p>Aug 2019 to June 2021</p>
+          <br></br>
+          <p>
+            <b>Vietnamese Baptist Church of Chicago</b>
+          </p>
+          <p>Children’s Ministry Teacher</p>
+          <p>Aug 2019 to June 2021</p>
         </div>
         <div className="additional-grid-item">
           <h3 className="title">Relevant Skills</h3>
-          <p>Computer Stuff</p>
-          <p>Computer Stuff</p>
-          <p>Computer Stuff</p>
-          <p>Computer Stuff</p>
+          <p>
+            <b>Design:</b> Adobe Photoshop, Adobe Premier Pro, Figma
+          </p>
+          <p>
+            <b>App Development:</b> C++, C#, Java, MySQL, HTML, CSS, JS
+          </p>
+          <p>
+            <b>Misc Skills:</b> Microsoft Office Programs: Word, Excel,
+            PowerPoint
+          </p>
+          <p>
+            <b>Languages:</b> English and Vietnamese
+          </p>
         </div>
+        <div className="footer"> Website Created by: Philip Le</div>
       </div>
     </div>
   );

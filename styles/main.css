@@ -78,6 +78,7 @@ img {
 .banner {
   background-color: #25272b;
   grid-column: 1 / -1;
+  padding-bottom: 10px;
 }
 
 .card {
@@ -107,4 +108,18 @@ button {
   font-size: 26px;
   text-decoration: underline;
   margin-top: 10px;
+}
+
+.additional-grid-item b {
+  color: #25272b;
+}
+
+.footer {
+  background-color: #25272b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 200%;
 }
