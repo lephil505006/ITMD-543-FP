@@ -9,7 +9,7 @@ const Card = ({ title, caption, imageUrl }) => {
 
   return (
     <div className="card">
-      <h2>{title}</h2>
+      <h1 className="title">{title}</h1>
       {imageUrl && <img src={imageUrl} alt={title} className="card-image" />}
       <p>{caption}</p>
       <button onClick={toggleShowMore}>

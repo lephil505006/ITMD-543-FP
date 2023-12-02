@@ -18,6 +18,25 @@ body {
   gap: 20px;
 }
 
+.additional-grid {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.additional-grid-item {
+  padding: 20px;
+  color: #000000;
+}
+
+.additional-grid-item .title {
+  text-align: center;
+}
+
+.additional-grid-item p {
+  margin-left: 25%;
+}
+
 .education-text {
   grid-column: 1 / -1;
   text-align: center;
@@ -30,6 +49,17 @@ h1 {
   font-size: 36px;
   margin-bottom: 45px;
   margin-top: 50px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.header {
+  text-decoration: underline;
 }
 
 h2 {}

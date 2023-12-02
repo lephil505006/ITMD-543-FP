@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div className="container">
       <Banner />
-      <div className="education-text">Education</div>
+      <div className="header education-text">Education</div>
       {cardsData.map((card, index) => (
         <Card
           key={index}
@@ -37,6 +37,19 @@ const Home = () => {
           imageUrl={card.imageUrl}
         />
       ))}
+      <div className="additional-grid">
+        <div className="additional-grid-item">
+          <h3 className="title">Expierence</h3>
+          <p>Chicken Place</p>
+        </div>
+        <div className="additional-grid-item">
+          <h3 className="title">Relevant Skills</h3>
+          <p>Computer Stuff</p>
+          <p>Computer Stuff</p>
+          <p>Computer Stuff</p>
+          <p>Computer Stuff</p>
+        </div>
+      </div>
     </div>
   );
 };
