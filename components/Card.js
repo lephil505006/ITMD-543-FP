@@ -7,6 +7,7 @@ const Card = ({ title, caption, imageUrl, course1, course2, course3 }) => {
     setShowMore(!showMore);
   };
 
+  /*Card component that will take input from the index on click button*/
   return (
     <div className="card">
       <h1 className="title">{title}</h1>

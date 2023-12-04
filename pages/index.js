@@ -2,6 +2,7 @@ import React from 'react';
 import Card from '../components/Card';
 import Banner from '../components/Banner';
 
+/*Const to hold the data per card to return to the card component */
 const Home = () => {
   const cardsData = [
     {
