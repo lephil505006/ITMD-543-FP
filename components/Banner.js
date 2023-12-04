@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="banner">
       <h1>Philip Le Resume</h1>
       <p>
-        <b>Phone Number:</b> ### ### ####
+        <b>Phone Number:</b> 708 205 7670
       </p>
       <p>
         <b>Email Address:</b> ple2@hawk.iit.edu
